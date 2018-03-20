@@ -7,7 +7,6 @@ function destructivelyAppendKitten(name) {
 
 
 function addElementToBeginningOfArray(array, newElement) {
-<<<<<<< HEAD
   var newArray = [newElement, ...array]
   return newArray
 };
