@@ -15,6 +15,11 @@ function destructivelyRemoveLastKitten() {
   return kittens;
 };
 
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
+
 
 function structivelyPrependKitten(kittens, name) {
   var newArray = [name, ...kittens];
