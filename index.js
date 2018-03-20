@@ -9,5 +9,3 @@ function destructivelyAppendKitten() {
   var newArray = kittens.pop()
   return newArray;
 };
-
-
