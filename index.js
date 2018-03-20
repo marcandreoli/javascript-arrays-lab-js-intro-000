@@ -5,12 +5,17 @@ function destructivelyAppendKitten(name) {
   return kittens;
 };
 
-function destructivelyPrependKitten(kittens, name) {
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name);
+  return kittens;
+};
+
+function structivelyPrependKitten(kittens, name) {
   var newArray = [name, ...kittens];
   return newArray;
 };
 
-function destructivelyAppendKitten() {
+function destructivelyppendKitten() {
   var newArray = kittens.pop()
   return newArray;
 };
