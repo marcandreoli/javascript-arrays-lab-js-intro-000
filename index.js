@@ -5,6 +5,10 @@ function destructivelyAppendKitten(kittens, name) {
   return newArray;
 };
 
+function destructivelyAppendKitten(name) {
+  kittens.push(name);
+};
+
 function destructivelyAppendKitten() {
   var newArray = kittens.pop()
   return newArray;
