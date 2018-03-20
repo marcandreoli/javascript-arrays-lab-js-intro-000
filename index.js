@@ -5,8 +5,9 @@ function destructivelyAppendKitten(kittens, name) {
   return newArray;
 };
 
-
-function addElementToBeginningOfArray(array, newElement) {
-  var newArray = [newElement, ...array]
-  return newArray
+function destructivelyAppendKitten() {
+  var newArray = kittens.pop()
+  return newArray;
 };
+
+
