@@ -25,6 +25,11 @@ function appendKitten(name) {
   return newArray;
 };
 
+function prependKitten(name) {
+  var newArray = [name, kittens...];
+};
+
+
 
 function structivelyPrependKitten(kittens, name) {
   var newArray = [name, ...kittens];
