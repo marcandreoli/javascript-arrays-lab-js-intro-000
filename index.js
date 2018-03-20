@@ -10,6 +10,12 @@ function destructivelyPrependKitten(name) {
   return kittens;
 };
 
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+};
+
+
 function structivelyPrependKitten(kittens, name) {
   var newArray = [name, ...kittens];
   return newArray;
